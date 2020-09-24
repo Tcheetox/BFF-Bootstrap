@@ -1,0 +1,689 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/713bd5cd1d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>The Boston Film Festival</title>
+    <link rel="icon" href="pictures/logos/favicon.ico" type="image/ico" />
+</head>
+
+<body data-spy="scroll" data-target="#stickyNavBar">
+    <!-- Hero -->
+    <div class="jumbotron jumbotron-fluid" id="top">
+        <div class="container">
+            <img class="logo-large" src="pictures/logos/mainLogo.png" alt=""/>
+            <p class="lead">Watch it outside Boston edition, 5th - 8th August 2021.</p>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-md" id="stickyNavBar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="navbar-brand-title-U">B</span>oston <span class="navbar-brand-title-U">F</span>ilm <span class="navbar-brand-title-U">F</span>estival
+                <img class="little-logo" src="pictures/logos/littleBlack.jpg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" role="tablist">
+                    <li class="nav-item" href="#top">
+                        <a class="nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#program">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#registration">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel movies preview -->
+    <div class="container">
+        <div id="carouselMoviePreview" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="3500">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselMoviePreview" data-slide-to="0" class="carousel-link active"></li>
+                <li data-target="#carouselMoviePreview" data-slide-to="1" class="carousel-link"></li>
+                <li data-target="#carouselMoviePreview" data-slide-to="2" class="carousel-link"></li>
+                <li data-target="#carouselMoviePreview" data-slide-to="3" class="carousel-link"></li>
+                <li data-target="#carouselMoviePreview" data-slide-to="4" class="carousel-link"></li>
+                <li data-target="#carouselMoviePreview" data-slide-to="5" class="carousel-link"></li>
+                <li data-target="#carouselMoviePreview" data-slide-to="6" class="carousel-link"></li>
+                <li data-target="#carouselMoviePreview" data-slide-to="7" class="carousel-link"></li>
+            </ol>
+
+            <div class="video-control">
+                <i class="far fa-play-circle fa-4x video-control-button"></i>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video poster="pictures/banners/interstellar_crop.jpg" preload="none">
+                        <source src="trailers/interstellar.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Interstellar</h4>
+                        <p>Matthew McConaughey • Anne Hathaway • IMBd <a href="https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_0">8.6</a>/10</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video poster="pictures/banners/inception_crop.jpg" preload="none">
+                        <source src="trailers/inception.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Inception</h4>
+                        <p>Leonardo DiCaprio • Joseph Gordon-Levitt • Ellen Page • IMBd <a href="https://www.imdb.com/title/tt1375666/?ref_=fn_al_tt_1">8.8</a>/10</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video poster="pictures/banners/frozen_crop.jpg" preload="none">
+                        <source src="trailers/frozen.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Frozen II</h4>
+                        <p>Kristen Bell • Idina Menzel • Josh Gad • IMBd <a href="https://www.imdb.com/title/tt4520988/?ref_=fn_al_tt_1">6.9</a>/10</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video poster="pictures/banners/avengers_crop.jpg" preload="none">
+                        <source src="trailers/avengers.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Avengers: Infinity War</h4>
+                        <p>Robert Downey Jr. • Chris Hemsworth • Mark Ruffalo • IMBd <a href="https://www.imdb.com/title/tt4154756/?ref_=nv_sr_srsg_0">8.4</a>/10</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video poster="pictures/banners/themartian_crop.jpg" preload="none">
+                        <source src="trailers/themartian.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>The Martian</h4>
+                        <p>Matt Damon • Jessica Chastain • Kristen Wiig • IMBd <a href="https://www.imdb.com/title/tt3659388/?ref_=fn_al_tt_1">8.0</a>/10</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video poster="pictures/banners/deepsea_crop.jpg" preload="none">
+                        <source src="trailers/deepsea.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Deep Blue Sea 3</h4>
+                        <p>Tania Raymonde • Nathaniel • Buzolic • Emerson Brooks • IMBd <a href="https://www.imdb.com/title/tt11946300/?ref_=fn_al_tt_1">4.6</a>/10</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video poster="pictures/banners/greenbook_crop.jpg" preload="none">
+                        <source src="trailers/greenbook.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Green Book</h4>
+                        <p>Viggo Mortensen • Mahershala Ali • Linda Cardellini • IMBd <a href="https://www.imdb.com/title/tt6966692/?ref_=nv_sr_srsg_0">8.2</a>/10</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video poster="pictures/banners/django_crop.jpg" preload="none">
+                        <source src="trailers/django.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Django Unchained</h4>
+                        <p>Jamie Foxx • Christoph Waltz • Leonardo DiCaprio • IMBd <a href="https://www.imdb.com/title/tt1853728/?ref_=fn_al_tt_1">8.4</a>/10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About and News -->
+    <div class="container" id="news">
+        <h3 class="text-center"><span>NEWS</span></h3>
+        <div class="row no-gutters">
+            <div class="col-md-6">
+                <div class="card about">
+                    <img src="pictures/about2.jpeg" class="card-img-top" alt="Boston Public Garden">
+                    <div class="card-body">
+                        <h6 class="card-pretitle"><span class="bold-label">PINNED NEWS</span> • Last updated 05/08/2020</h6>
+                        <h5 class="card-title"><span class="bold-label">About us</span></h5>
+                        <p class="card-text text-justify">The <span class="bold-label">Boston Film Festival</span> is a gathering event that offers free entertainment for everyone. This <span class="bold-label">Watch it outside Boston edition</span> promotes accessibility to outdoor cinema by projecting 8 blockbusters to help the public discover awesome movies. There is something for every taste!</p>
+                        <p><i class="fas fa-video"></i> <span class="bold-label">What?</span> Outdoor film festival</p>
+                        <p><i class="fas fa-directions"></i> <span class="bold-label">Where?</span> Boston Public Gardens</p>
+                        <p><i class="far fa-calendar-times"></i> <span class="bold-label">When?</span> From August 5th to 8th, from 6.00 PM to midnight</p>
+                        <p><i class="fas fa-tags"></i> <span class="bold-label">Price?</span> Free</p>
+                        <form action="#registration">
+                            <input type="submit" value="Register" class="btn btn-secondary btn-round bold-label btn-shadow">
+                        </form>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row-sm-3">
+                    <div class="card news-2">
+                        <div class="card-body">
+                            <h6 class="card-pretitle"><span class="bold-label">LATEST NEWS</span> • 08/08/2020</h6>
+                            <h5 class="card-title"><span class="bold-label">Info COVID-19</span></h5>
+                            <p class="card-text text-justify">
+                                With the ongoing rampup of the COVID-19, the city of Boston has taken additional measures. For your safety we have restricted the venue to 1,500 participants.  Make sure to reserve your spot and bring your mask.
+                                <a href="https://www.boston.gov/news/coronavirus-disease-covid-19-boston">Read more.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-sm-3">
+                    <div class="card news-1">
+                        <img src="pictures/about1.jpeg" class="card-img-top" alt="Boston Public Garden">
+                        <div class="card-body news">
+                            <h6 class="card-pretitle"><span class="bold-label">NEWS</span> • 05/08/2020</h6>
+                            <h5 class="card-title"><span class="bold-label">Event launch</span></h5>
+                            <p class="card-text text-justify">
+                                Great news! The Boston Film Festival will take at the Boston Public Garden from August 5th to August 8th. The entrance will also be free. Looking forward to seeing you there.
+                            </p>
+                            <p>This event is brought to you by <span class="bold-label">Watch it outside events Co.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Schedule -->
+    <div class="container" id="program">
+        <h3 id="programSeparator" class="text-center program-title">Program</h3>
+        <!-- Nav -->
+        <ul class="nav nav-tabs justify-content-center" id="mySchedule" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="dayOneTab" data-toggle="tab" href="#dayOne" role="tab" aria-controls="dayOne" aria-selected="true">August 5th</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="dayTwoTab" data-toggle="tab" href="#dayTwo" role="tab" aria-controls="dayTwo" aria-selected="false">August 6th</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="dayThreeTab" data-toggle="tab" href="#dayThree" role="tab" aria-controls="dayThree" aria-selected="false">August 7th</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="dayFourTab" data-toggle="tab" href="#dayFour" role="tab" aria-controls="dayFour" aria-selected="false">August 8th</a>
+            </li>
+        </ul>
+        <!-- Nav content -->
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="dayOne" role="tabpanel" aria-labelledby="dayOneTab">
+                <!-- Day one -->
+                <div class="row no-gutters">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-md">
+                                    <div class="jacket-picture-wrapper">
+                                        <img src="pictures/jackets/inception_orig.jpg" class="card-img" alt="Inception">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="1"><i class="far fa-play-circle"></i> Trailer</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><span class="jacket-title-time">6.15 PM</span>Inception</h4>
+                                        <p class="card-text">A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</p>
+                                        <p><span class="bold-label">Type •</span> Action, Science Fiction, Adventure</p>
+                                        <p><span class="bold-label">Director •</span> Christopher Nolan</p>
+                                        <p><span class="bold-label">Actors •</span> Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page</p>
+                                        <p class="card-text"><small class="text-muted">Remaining spots: 321/1500</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-md">
+                                    <div class="jacket-picture-wrapper">
+                                        <img src="pictures/jackets/interstellar_orig.jpg" class="card-img" alt="Interstellar">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="0"><i class="far fa-play-circle"></i> Trailer</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><span class="jacket-title-time">8.50 PM</span>Interstellar</h4>
+                                        <p class="card-text">A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+                                        <p><span class="bold-label">Type •</span> Adventure, Drama, Science Fiction</p>
+                                        <p><span class="bold-label">Director •</span> Christopher Nolan</p>
+                                        <p><span class="bold-label">Actors •</span> Matthew McConaughey, Anne Hathaway</p>
+                                        <p class="card-text"><small class="text-muted">Remaining spots: 145/1500</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="dayTwo" role="tabpanel" aria-labelledby="dayTwoTab">
+                <!-- Day two -->
+                <div class="row no-gutters">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-md">
+                                    <div class="jacket-picture-wrapper">
+                                        <img src="pictures/jackets/frozen_orig.jpg" class="card-img" alt="Frozen II">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="2"><i class="far fa-play-circle"></i> Trailer</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><span class="jacket-title-time">6.15 PM</span>Frozen II</h4>
+                                        <p class="card-text">Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's [...]</p>
+                                        <p><span class="bold-label">Type •</span> Animation, Family, Adventure </p>
+                                        <p><span class="bold-label">Directors •</span> Chris Buck, Jennifer Lee</p>
+                                        <p><span class="bold-label">Actors •</span> Kristen Bell, Idina Menzel, Josh Gad</p>
+                                        <p class="card-text"><small class="text-muted">Remaining spots: 850/1500</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-md">
+                                    <div class="jacket-picture-wrapper">
+                                        <img src="pictures/jackets/avengers_orig.jpg" class="card-img" alt="Avengers: Infinity War">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="3"><i class="far fa-play-circle"></i> Trailer</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><span class="jacket-title-time">8.50 PM</span>Avengers: Infinity War</h4>
+                                        <p class="card-text">The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before [...]</p>
+                                        <p><span class="bold-label">Type •</span> Adventure, Action, Science Fiction</p>
+                                        <p><span class="bold-label">Directors •</span> Anthony Russo, Joe Russo</p>
+                                        <p><span class="bold-label">Actors •</span> Robert Downey Jr., Chris Hemsworth, Mark Ruffalo</p>
+                                        <p class="card-text"><small class="text-muted">Remaining spots: 723/1500</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="dayThree" role="tabpanel" aria-labelledby="dayThreeTab">
+                <!-- Day three -->
+                <div class="row no-gutters">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-md">
+                                    <div class="jacket-picture-wrapper">
+                                        <img src="pictures/jackets/deepsea_orig.jpg" class="card-img" alt="Deep Blue Sea 3">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="5"><i class="far fa-play-circle"></i> Trailer</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><span class="jacket-title-time">6.15 PM</span>Deep Blue Sea 3</h4>
+                                        <p class="card-text">Studying the effects of climate change off the coast of Mozambique, a marine biologist and her team confront three genetically enhanced bull sharks.</p>
+                                        <p><span class="bold-label">Type •</span> Action, Horror, Science Fiction</p>
+                                        <p><span class="bold-label">Director •</span> John Pogue</p>
+                                        <p><span class="bold-label">Actors •</span> Tania Raymonde, Nathaniel Buzolic</p>
+                                        <p class="card-text"><small class="text-muted">Remaining spots: 1124/1500</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-md">
+                                    <div class="jacket-picture-wrapper">
+                                        <img src="pictures/jackets/themartian_orig.jpg" class="card-img" alt="The Martian">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="4"><i class="far fa-play-circle"></i> Trailer</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><span class="jacket-title-time">8.50 PM</span>The Martian</h4>
+                                        <p class="card-text">An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.</p>
+                                        <p><span class="bold-label">Type •</span> Drama, Adventure, Science Fiction</p>
+                                        <p><span class="bold-label">Director •</span> Ridley Scott</p>
+                                        <p><span class="bold-label">Actors •</span> Matt Damon, Jessica Chastain, Kristen Wiig</p>
+                                        <p class="card-text"><small class="text-muted">Remaining spots: 440/1500</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="dayFour" role="tabpanel" aria-labelledby="dayFourTab">
+                <!-- Day four -->
+                <div class="row no-gutters">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-md">
+                                    <div class="jacket-picture-wrapper">
+                                        <img src="pictures/jackets/greenbook_orig.jpg" class="card-img" alt="Green Book">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="6"><i class="far fa-play-circle"></i> Trailer</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><span class="jacket-title-time">6.15 PM</span>Green Book</h4>
+                                        <p class="card-text">A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.</p>
+                                        <p><span class="bold-label">Type •</span> Drama, Comedy</p>
+                                        <p><span class="bold-label">Director •</span> Peter Farrelly</p>
+                                        <p><span class="bold-label">Actors •</span> Viggo Mortensen, Mahershala Ali, Linda Cardellini</p>
+                                        <p class="card-text"><small class="text-muted">Remaining spots: 822/1500</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-md">
+                                    <div class="jacket-picture-wrapper">
+                                        <img src="pictures/jackets/django_orig.jpg" class="card-img" alt="Django Unchained">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="7"><i class="far fa-play-circle"></i> Trailer</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><span class="jacket-title-time">8.50 PM</span>Django Unchained</h4>
+                                        <p class="card-text">With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner. </p>
+                                        <p><span class="bold-label">Type •</span> Drama, Western</p>
+                                        <p><span class="bold-label">Director •</span> Quentin Tarantino</p>
+                                        <p><span class="bold-label">Actors •</span> Jamie Foxx, Christoph Waltz, Leonardo DiCaprio</p>
+                                        <p class="card-text"><small class="text-muted">Remaining spots: 795/1500</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map and Registration form -->
+    <div class="container" id="registration">
+        <h3 class="text-center">Registration</h3>
+        <div class="row no-gutters">
+            <div class="col-md-6">
+                <div class="card register" id="registrationCard">
+                    <img src="pictures/garden1.jpeg" class="card-img-top" alt="Boston Public Garden">
+                    <div class="card-body text-justify">
+                        <p>Attending the event is <span class="bold-label">free</span>, but the capacity is limited to 1,500 participants on site. Don't miss out and reserve your spots now.</p>
+                        <form id="registration-form">
+                            <!--Name-->
+                            <div class="input-group input-group-sm">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Name</span>
+                                </div>
+                                <input type="text" class="form-control fix-rounded-right" placeholder="First name" required>
+                                <input type="text" class="form-control fix-rounded-right" placeholder="Last name" required>
+                            </div>
+                            <!--Email-->
+                            <div class="input-group input-group-sm">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">@</span>
+                                </div>
+                                <input type="text" class="form-control fix-rounded-right" placeholder="Email address" required>
+                            </div>
+                            <!--Movie-->
+                            <div class="input-group input-group-sm">
+                                <div id="input-group-prepend-movie" class="input-group-prepend">
+                                    <span class="input-group-text">Movie slot</span>
+                                </div>
+                                <div class="dropdown-menu-title-wrapper">
+                                    <div class="dropdown-menu-title">Choose movie(s)...</div>
+                                </div>
+                                <select id="dropdown-menu-movie" class="custom-select form-control fix-rounded-right" data-toggle="dropdown">
+                                </select>
+                                <div id="dropdown-menu-movie-items" class="dropdown-menu">
+                                    <ul class="dropdown-menu-list">
+                                        <li>
+                                            <div class="dropdown-date text-center">August 5th</div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="movie-checkbox"><span class="dropdown-movie-title">Inception @6.15PM</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="movie-checkbox"><span class="dropdown-movie-title">Interstellar @8.50PM</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown-date text-center">August 6th</div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="movie-checkbox"><span class="dropdown-movie-title">Frozen II @6.15PM</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="movie-checkbox"><span class="dropdown-movie-title">Avengers: Infinity War @8.50PM</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown-date text-center">August 7th</div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="movie-checkbox"><span class="dropdown-movie-title">Deep Blue Sea 3 @6.15PM</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="movie-checkbox"><span class="dropdown-movie-title">The Martian @8.50PM</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown-date text-center">August 8th</div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="movie-checkbox"><span class="dropdown-movie-title">Green Book @6.15PM</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" class="movie-checkbox"><span class="dropdown-movie-title">Django Unchained @8.50PM</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Participants -->
+                            <div class="input-group input-group-sm">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"># Children</span>
+                                </div>
+                                <select class="custom-select form-control fix-rounded-right" data-toggle="dropdown" required>
+                                    <option selected>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"># Adults</span>
+                                </div>
+                                <select class="custom-select form-control fix-rounded-right" data-toggle="dropdown" required>
+                                    <option>0</option>
+                                    <option selected>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <!-- Checkbox and submit -->
+                            <div class="input-group form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                    <label class="form-check-label" for="invalidCheck2">
+                                        Agree to <span class="bold-label">Watch it outside events Co.</span> <a href="#">terms and conditions</a>.
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-shadow">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card gmap">
+                    <iframe id="gmap" src="https://maps.google.com/maps?q=Boston%20Public%20Garden&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Registration modal-->
+    <div class="modal" tabindex="-1" id="registration-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Registration complete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for your reservation. You will soon receive a confirmation email.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-shadow" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Newsletter -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Stay in touch</h5>
+                    <p>
+                        Subscribe to our newsletter and never miss information related to this edition of the Boston Film Festival.
+                    </p>
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" id="newsletter-input" class="form-control fix-rounded-right" placeholder="Email address" required>
+                            <button type="submit" class="btn btn-secondary">Subscribe</button>
+                        </div>
+                    </form>
+                    <hr class="clearfix w-100 d-md-none">
+                </div>
+                <!-- Links -->
+                <div class="col-md-3">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://friendsofthepublicgarden.org">
+                                <img src="pictures/logos/gardenfiends.png" alt="" class="garden-friends-logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.boston.com/">Boston | NEWS</a>
+                        </li>
+                        <li>
+                            <a href="https://www.boston.gov/parks/public-garden">Boston | Public Garden</a>
+                        </li>
+                        <li>
+                            <a href="https://www.boston.gov/news/coronavirus-disease-covid-19-boston">COVID-19</a>
+                        </li>
+                    </ul>
+                    <hr class="clearfix w-100 d-md-none">
+                </div>
+                <!-- Contacts -->
+                <div class="col-md-3">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Terms and conditions</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-square-alt"></i> <a href="tel:+1 (617) 658-9001">+1 (617) 658-9001</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope-open"></i> <a href="mailto:Info@BFF.com">Email us</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-directions"></i> <a href="https://www.google.com/maps?ll=42.354167,-71.070428&z=13&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Boston+Public+Garden+4+Charles+St+Boston,+MA+02108+United+States@42.3541675,-71.0704279">Direction</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="clearfix w-100">
+            <!-- Social buttons -->
+            <ul class="socials list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-social" href="https://www.facebook.com">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-social" href="https://twitter.com">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-social" href="https://www.instagram.com">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-social" href="https://www.linkedin.com">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+            <hr class="clearfix w-100">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center">
+                © 2020 Copyright <a href="#">Watch it outside events Co.</a> All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="js.js"></script>
+</body>
+</html>
