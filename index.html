@@ -4,21 +4,29 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+    <meta http-equiv="Content-Security-Policy" content="frame-src https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sBoston+Public+Garden!6i13;"> 
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="author" content="Kévin Renier">
+    <meta
+    name="description"
+    content="The Boston Film Festival event website. Kévin Renier Development project. Single page application using Bootstrap, JS, CSS3 and HTML5."
+  />
+    <!-- Bootstrap CSS + FA -->
+    <script defer src="https://kit.fontawesome.com/713bd5cd1d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/713bd5cd1d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-
+    <link rel="preconnect" href="https://ka-f.fontawesome.com" />
+    <link rel="icon" href="pictures/logos/favicon.ico" type="image/ico" /> 
+    <link rel="alternate" hrefLang="x-default" href="https://thekecha.com/projects/bostonfilmfestival" />
     <title>The Boston Film Festival</title>
-    <link rel="icon" href="pictures/logos/favicon.ico" type="image/ico" />
 </head>
 
 <body data-spy="scroll" data-target="#stickyNavBar">
     <!-- Hero -->
     <div class="jumbotron jumbotron-fluid" id="top">
         <div class="container">
-            <img class="logo-large" src="pictures/logos/mainLogo.png" alt=""/>
+            <img class="logo-large" src="pictures/logos/mainLogo.png" alt="" width="280" height="160"/>
             <p class="lead">Watch it outside Boston edition, 5th - 8th August 2021.</p>
         </div>
     </div>
@@ -27,10 +35,10 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <span class="navbar-brand-title-U">B</span>oston <span class="navbar-brand-title-U">F</span>ilm <span class="navbar-brand-title-U">F</span>estival
-                <img class="little-logo" src="pictures/logos/littleBlack.jpg" alt="">
+                <img class="little-logo" src="pictures/logos/littleBlack.jpg" alt="" width="22" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
+                <em class="fas fa-bars"></em>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -70,11 +78,11 @@
             </ol>
 
             <div class="video-control">
-                <i class="far fa-play-circle fa-4x video-control-button"></i>
+                <em class="far fa-play-circle fa-4x video-control-button"></em>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <video poster="pictures/banners/interstellar_crop.jpg" preload="none">
+                    <video poster="pictures/banners/interstellar_crop.jpg" preload="none" description="truc">
                         <source src="trailers/interstellar.mp4" type="video/mp4">
                     </video>
                     <div class="carousel-caption d-none d-md-block">
@@ -155,15 +163,15 @@
         <div class="row no-gutters">
             <div class="col-md-6">
                 <div class="card about">
-                    <img src="pictures/about2.jpeg" class="card-img-top" alt="Boston Public Garden">
+                    <img src="pictures/about2.jpeg" class="card-img-top" alt="Boston Public Garden" width="553" height="369">
                     <div class="card-body">
                         <h6 class="card-pretitle"><span class="bold-label">PINNED NEWS</span> • Last updated 05/08/2020</h6>
                         <h5 class="card-title"><span class="bold-label">About us</span></h5>
                         <p class="card-text text-justify">The <span class="bold-label">Boston Film Festival</span> is a gathering event that offers free entertainment for everyone. This <span class="bold-label">Watch it outside Boston edition</span> promotes accessibility to outdoor cinema by projecting 8 blockbusters to help the public discover awesome movies. There is something for every taste!</p>
-                        <p><i class="fas fa-video"></i> <span class="bold-label">What?</span> Outdoor film festival</p>
-                        <p><i class="fas fa-directions"></i> <span class="bold-label">Where?</span> Boston Public Gardens</p>
-                        <p><i class="far fa-calendar-times"></i> <span class="bold-label">When?</span> From August 5th to 8th, from 6.00 PM to midnight</p>
-                        <p><i class="fas fa-tags"></i> <span class="bold-label">Price?</span> Free</p>
+                        <p><em class="fas fa-video"></em> <span class="bold-label">What?</span> Outdoor film festival</p>
+                        <p><em class="fas fa-directions"></em> <span class="bold-label">Where?</span> Boston Public Gardens</p>
+                        <p><em class="far fa-calendar-times"></em> <span class="bold-label">When?</span> From August 5th to 8th, from 6.00 PM to midnight</p>
+                        <p><em class="fas fa-tags"></em> <span class="bold-label">Price?</span> Free</p>
                         <form action="#registration">
                             <input type="submit" value="Register" class="btn btn-secondary btn-round bold-label btn-shadow">
                         </form>
@@ -186,7 +194,7 @@
                 </div>
                 <div class="row-sm-3">
                     <div class="card news-1">
-                        <img src="pictures/about1.jpeg" class="card-img-top" alt="Boston Public Garden">
+                        <img src="pictures/about1.jpeg" class="card-img-top" alt="Boston Public Garden" width="537" height="282">
                         <div class="card-body news">
                             <h6 class="card-pretitle"><span class="bold-label">NEWS</span> • 05/08/2020</h6>
                             <h5 class="card-title"><span class="bold-label">Event launch</span></h5>
@@ -229,8 +237,8 @@
                             <div class="row no-gutters">
                                 <div class="col-md">
                                     <div class="jacket-picture-wrapper">
-                                        <img src="pictures/jackets/inception_orig.jpg" class="card-img" alt="Inception">
-                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="1"><i class="far fa-play-circle"></i> Trailer</div>
+                                        <img src="pictures/jackets/inception_orig.jpg" class="card-img" alt="Inception" width="260" height="390">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="1"><em class="far fa-play-circle"></em> Trailer</div>
                                     </div>
                                 </div>
                                 <div class="col-md">
@@ -251,8 +259,8 @@
                             <div class="row no-gutters">
                                 <div class="col-md">
                                     <div class="jacket-picture-wrapper">
-                                        <img src="pictures/jackets/interstellar_orig.jpg" class="card-img" alt="Interstellar">
-                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="0"><i class="far fa-play-circle"></i> Trailer</div>
+                                        <img src="pictures/jackets/interstellar_orig.jpg" class="card-img" alt="Interstellar" width="260" height="390">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="0"><em class="far fa-play-circle"></em> Trailer</div>
                                     </div>
                                 </div>
                                 <div class="col-md">
@@ -278,8 +286,8 @@
                             <div class="row no-gutters">
                                 <div class="col-md">
                                     <div class="jacket-picture-wrapper">
-                                        <img src="pictures/jackets/frozen_orig.jpg" class="card-img" alt="Frozen II">
-                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="2"><i class="far fa-play-circle"></i> Trailer</div>
+                                        <img src="pictures/jackets/frozen_orig.jpg" class="card-img" alt="Frozen II" width="260" height="390">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="2"><em class="far fa-play-circle"></em> Trailer</div>
                                     </div>
                                 </div>
                                 <div class="col-md">
@@ -300,8 +308,8 @@
                             <div class="row no-gutters">
                                 <div class="col-md">
                                     <div class="jacket-picture-wrapper">
-                                        <img src="pictures/jackets/avengers_orig.jpg" class="card-img" alt="Avengers: Infinity War">
-                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="3"><i class="far fa-play-circle"></i> Trailer</div>
+                                        <img src="pictures/jackets/avengers_orig.jpg" class="card-img" alt="Avengers: Infinity War" width="260" height="390">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="3"><em class="far fa-play-circle"></em> Trailer</div>
                                     </div>
                                 </div>
                                 <div class="col-md">
@@ -327,8 +335,8 @@
                             <div class="row no-gutters">
                                 <div class="col-md">
                                     <div class="jacket-picture-wrapper">
-                                        <img src="pictures/jackets/deepsea_orig.jpg" class="card-img" alt="Deep Blue Sea 3">
-                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="5"><i class="far fa-play-circle"></i> Trailer</div>
+                                        <img src="pictures/jackets/deepsea_orig.jpg" class="card-img" alt="Deep Blue Sea 3" width="260" height="390">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="5"><em class="far fa-play-circle"></em> Trailer</div>
                                     </div>
                                 </div>
                                 <div class="col-md">
@@ -349,8 +357,8 @@
                             <div class="row no-gutters">
                                 <div class="col-md">
                                     <div class="jacket-picture-wrapper">
-                                        <img src="pictures/jackets/themartian_orig.jpg" class="card-img" alt="The Martian">
-                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="4"><i class="far fa-play-circle"></i> Trailer</div>
+                                        <img src="pictures/jackets/themartian_orig.jpg" class="card-img" alt="The Martian" width="260" height="390">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="4"><em class="far fa-play-circle"></em> Trailer</div>
                                     </div>
                                 </div>
                                 <div class="col-md">
@@ -376,8 +384,8 @@
                             <div class="row no-gutters">
                                 <div class="col-md">
                                     <div class="jacket-picture-wrapper">
-                                        <img src="pictures/jackets/greenbook_orig.jpg" class="card-img" alt="Green Book">
-                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="6"><i class="far fa-play-circle"></i> Trailer</div>
+                                        <img src="pictures/jackets/greenbook_orig.jpg" class="card-img" alt="Green Book" width="260" height="390">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="6"><em class="far fa-play-circle"></em> Trailer</div>
                                     </div>
                                 </div>
                                 <div class="col-md">
@@ -398,8 +406,8 @@
                             <div class="row no-gutters">
                                 <div class="col-md">
                                     <div class="jacket-picture-wrapper">
-                                        <img src="pictures/jackets/django_orig.jpg" class="card-img" alt="Django Unchained">
-                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="7"><i class="far fa-play-circle"></i> Trailer</div>
+                                        <img src="pictures/jackets/django_orig.jpg" class="card-img" alt="Django Unchained" width="260" height="390">
+                                        <div class="btn btn-secondary btn-shadow trailer-indicator" data-slide-to="7"><em class="far fa-play-circle"></em> Trailer</div>
                                     </div>
                                 </div>
                                 <div class="col-md">
@@ -426,7 +434,7 @@
         <div class="row no-gutters">
             <div class="col-md-6">
                 <div class="card register" id="registrationCard">
-                    <img src="pictures/garden1.jpeg" class="card-img-top" alt="Boston Public Garden">
+                    <img src="pictures/garden1.jpeg" class="card-img-top" alt="Boston Public Garden" width="553" height="335">
                     <div class="card-body text-justify">
                         <p>Attending the event is <span class="bold-label">free</span>, but the capacity is limited to 1,500 participants on site. Don't miss out and reserve your spots now.</p>
                         <form id="registration-form">
@@ -561,7 +569,7 @@
             </div>
             <div class="col-md-6">
                 <div class="card gmap">
-                    <iframe id="gmap" src="https://maps.google.com/maps?q=Boston%20Public%20Garden&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe id="gmap" title="Event location" src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sBoston+Public+Garden!6i13" loading="lazy"></iframe>
                 </div>
             </div>
 
@@ -613,7 +621,7 @@
                     <ul class="list-unstyled">
                         <li>
                             <a href="https://friendsofthepublicgarden.org">
-                                <img src="pictures/logos/gardenfiends.png" alt="" class="garden-friends-logo" />
+                                <img src="pictures/logos/gardenfiends.png" alt="" class="garden-friends-logo" width="167" height="50"/>
                             </a>
                         </li>
                         <li>
@@ -636,13 +644,13 @@
                             <a href="#">Terms and conditions</a>
                         </li>
                         <li>
-                            <i class="fas fa-phone-square-alt"></i> <a href="tel:+1 (617) 658-9001">+1 (617) 658-9001</a>
+                            <em class="fas fa-phone-square-alt"></em> <a href="tel:+1 (617) 658-9001">+1 (617) 658-9001</a>
                         </li>
                         <li>
-                            <i class="fas fa-envelope-open"></i> <a href="mailto:Info@BFF.com">Email us</a>
+                            <em class="fas fa-envelope-open"></em> <a href="mailto:Info@BFF.com">Email us</a>
                         </li>
                         <li>
-                            <i class="fas fa-directions"></i> <a href="https://www.google.com/maps?ll=42.354167,-71.070428&z=13&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Boston+Public+Garden+4+Charles+St+Boston,+MA+02108+United+States@42.3541675,-71.0704279">Direction</a>
+                            <em class="fas fa-directions"></em> <a href="https://www.google.com/maps?ll=42.354167,-71.070428&z=13&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Boston+Public+Garden+4+Charles+St+Boston,+MA+02108+United+States@42.3541675,-71.0704279">Direction</a>
                         </li>
                     </ul>
                 </div>
@@ -652,29 +660,29 @@
             <ul class="socials list-unstyled list-inline text-center">
                 <li class="list-inline-item">
                     <a class="btn-floating btn-social" href="https://www.facebook.com">
-                        <i class="fab fa-facebook fa-2x"></i>
+                        <em class="fab fa-facebook fa-2x"></em>
                     </a>
                 </li>
                 <li class="list-inline-item">
                     <a class="btn-floating btn-social" href="https://twitter.com">
-                        <i class="fab fa-twitter fa-2x"></i>
+                        <em class="fab fa-twitter fa-2x"></em>
                     </a>
                 </li>
                 <li class="list-inline-item">
                     <a class="btn-floating btn-social" href="https://www.instagram.com">
-                        <i class="fab fa-instagram fa-2x"></i>
+                        <em class="fab fa-instagram fa-2x"></em>
                     </a>
                 </li>
                 <li class="list-inline-item">
                     <a class="btn-floating btn-social" href="https://www.linkedin.com">
-                        <i class="fab fa-linkedin fa-2x"></i>
+                        <em class="fab fa-linkedin fa-2x"></em>
                     </a>
                 </li>
             </ul>
             <hr class="clearfix w-100">
             <!-- Copyright -->
             <div class="footer-copyright text-center">
-                © 2020 Copyright <a href="#">Watch it outside events Co.</a> All rights reserved.
+                © 2020 Copyright <a href="https://thekecha.com">TheKecha</a> All rights reserved.
             </div>
         </div>
     </footer>
@@ -683,7 +691,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <!-- Optional JavaScript -->
+    <!-- My JavaScript -->
     <script type="text/javascript" src="js.js"></script>
 </body>
 </html>
