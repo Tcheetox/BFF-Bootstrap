@@ -1,13 +1,3 @@
-const castButton = document.getElementById('castMe')
-const cjs = new Castjs()
-castButton.addEventListener('click', () => {
-    console.log(cjs)
-    if (cjs.available) {
-        // Initiate new cast session
-        cjs.cast('https://thekecha.com/library/foundation.mkv')
-    }
-})
-
 // Dropdown with checkboxes
 const dropdownMenuMovie = document.getElementById('dropdown-menu-movie')
 const dropdownMenuTitle = document.getElementsByClassName('dropdown-menu-title')[0]
